@@ -12,6 +12,19 @@
   header.nav {
     background-color: red;
   }
+
+  .col1 {
+    float: left;
+    
+  }
+
+  .col2 {
+    float: right;
+    
+  }
+
+
+
 /* Float three columns side by side */
 .column {
     float: left;
