@@ -9,6 +9,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  header{
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(197, 194, 194);
+  }
+
   header.nav {
     background-color: red;
   }
@@ -119,8 +125,10 @@ li {
 	           display:inline;
 }
 
-.name{float: left;}
-.main-nav{float: right;}
+.name{float: left;
+  margin-top: 16px;}
+.main-nav{float: right;
+          margin-top: 16px;}
 .price{
   font-weight: bold;
   font-size: 25px;
