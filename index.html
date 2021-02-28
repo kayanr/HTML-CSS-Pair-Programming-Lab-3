@@ -9,11 +9,8 @@
 
   <body>
     <header class="main-header">
-       <div class="container row">
-         <div class="col1">
-            <h3 class="name">Company name</h3>
-          </div>
-          <div class="col2">
+       <div class="container">
+          <h3 class="name">Company name</h3>
           <ul class="main-nav"> 
             <li><a href="#">Features</a></li> 
             <li><a href="#">Enterprise</a></li>
@@ -21,13 +18,14 @@
             <li><a href="#">Pricing</a></li>
             <li><button class="button button1">Sign up</button></li>
           </ul>
-        </div>  
+            
           
         </div>   
     </header>
     <main>
+      <div class="container">
       <h1 style="text-align: center">Pricing</h1>
-      <p>
+      <p class ="main-paragraph">
         Quickly build an effective pricing table for your potential customers
         with this Bootstrap example. It's built with default Bootstrap
         components and utilities with little customization.
@@ -74,28 +72,41 @@
           </div>
         </div>
       </div>
+    </div>
     </main>
     <footer class="main-footer">
-      <div class="row">
+      <div class="wrapper">
+        <div class="col" name="logos">
+         <ul>
+          <li>B icon</li>
+          <li>&copy 2017 - 2019</li>
+        </ul>
+        </div>
         <div class="col" name="features">
           <ul>
+            <li><span>Features</span></li>
             <li>Cool Stuff</li>
             <li>Random feature</li>
             <li>Team feature</li>
+            <li>Another one</li>
+            <li>Last time</li>
           </ul>
         </div>
         <div class="col" name="resources">
           <ul>
-            <li>Resouces</li>
+            <li><span>Resouces</span></li>
             <li>Resource name</li>
             <li>Another resource</li>
+            <li>Final resource</li>
           </ul>
         </div>
         <div class="col" name="about">
           <ul>
-            <li>Teams</li>
-            <li>Location</li>
+            <li><span>About</span></li>
+            <li>Team</li>
+            <li>Locations</li>
             <li>Privacy</li>
+            <li>Terms</li>
           </ul>
         </div>
       </div>
